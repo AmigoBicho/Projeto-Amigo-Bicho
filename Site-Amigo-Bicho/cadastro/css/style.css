@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B
+);
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  background-color: #99C5BB;
+}
+
+/* --- HEADER --- */
+header {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100vw;
+  background: #54b19d;
+  margin-top: auto;
+  position: relative;
+}
+
+.logo_cabeçalho {
+  max-width: 25%;
+  margin-left: -74.5%; /*Forma de forçar a logo ficar no inicio*/
+}
+
+/* --- NAV --- */
+nav {
+  background-color: #e3ebe8;
+  display: flex;
+  flex: 1 1 100vw;
+  justify-content: center;
+}
+
+.navegador_lista {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navegador_lista a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.navegador_lista li {
+  display: flex;
+  margin-right: 20px;
+  display: inline-block;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones_navegaçao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 3px;
+  text-align: right;
+  width: 20%;
+}
+
+.icones_acesso {
+  width: 22px;
+}
+
+.icones_navegaçao li {
+  padding: 0px 15px 0px;
+  display: inline-block;
+  
+}
+
+/* --- MAIN --- */
+/*Login*/
+#container{
+  background-image: url(../image/possivel_fundo-removebg-preview.png);
+  background-repeat:no-repeat;
+  background-position: bottom right;
+  background-size: 500px;
+  
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#cadastro_form{
+  background-color: #ffffffab;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  border-radius: 10px;
+  gap: 15px;
+  box-shadow: 5px 5px 8px rgba(#fff, #fff, #fff, 0.336);
+  height: fit-content;
+}
+
+#form_header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form_header h1{
+  font-size: 30px;
+  color: #54B19D;
+  position: relative;
+}
+
+#social_media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly; 
+  margin-top: 30px;
+}
+
+#social_media img{
+  width: 30px;
+}
+
+#social_media img:hover{
+  transform: scale(1.2); 
+}
+
+#inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.input-box{
+  font-size: 14px;
+  color: #847F7B;
+}
+
+.input-field{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  cursor: text;
+  border-bottom: 1px solid #847F7B;
+}
+
+.input-field i{
+  font-size: 18px;
+  color: #847F7B;
+}
+
+.input-field input{
+  border: none;
+  background-color: transparent;
+  width: 260px;
+  font-size: 15px;
+  padding: 0px 5px;
+}
+
+.input-field input:focus{
+ outline: none;
+}
+
+.cadastro_button{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  background-color: #54B19D;
+  color: #fff;
+  padding: 3.5px;
+  
+  font-size: 15px bold;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.cadastro_button:hover{
+  transform: scale(1.05);
+}
+/*---------*/
+
+/* --- FOOTER --- */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #54b19d;
+  padding: 10px;
+}
+
+.rodape_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+}
+
+.lado_esquerdo {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado_direito {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape_direito {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.rodape_esquerdo {
+  padding:10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+} /* Adicionei o espaçamento para os lados nas letras*/
+
+
+
+
+
+
+
