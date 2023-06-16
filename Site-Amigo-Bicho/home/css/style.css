@@ -15,43 +15,39 @@ body {
 /* --- HEADER --- */
 header {
   display: flex;
-  justify-content: center;
-  flex: 1 1 100vw;
+  justify-content: space-between;
+  flex: 10 10 100%;
   background: #54b19d;
-  margin-top: auto;
   position: relative;
 }
 
-.logo_cabeçalho {
-  max-width: 25%;
+#logo-botão{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.botao_entrar {
+#logo-botão img{
+  max-width: 40%;
+  margin-left: 10px;
+}
+
+#logo-botão button{
   font-family: "Atma", cursive;
+  background-color: #e3ebe8;
   font-weight: bold;
   text-align: center;
-  font-size: 20px;
-  background-color: #e3ebe8;
-  border: none;
   border-radius: 5px;
-  align-self: center;
-  margin-left: 67%;
-  align-self: center;
-  width: 85px;
+  font-size: 20px;
+  border: none;
   height: 40px;
-  display: flex;
-  background-position: center;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  width: 85px;
+  margin: 50px;
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .botao_entrar {
-    display: block;
-    margin-left: 300px;
-    margin-top: 10px;
-  }
+#logo-botão a {
+  text-decoration: none;
 }
 
 /* --- NAV --- */
