@@ -18,16 +18,25 @@ body {
 /* --- HEADER --- */
 header {
   display: flex;
-  justify-content: center;
-  flex: 1 1 100vw;
+  justify-content: space-between;
+  flex: 10 10 100%;
   background: #54b19d;
-  margin-top: auto;
   position: relative;
 }
 
-.logo_cabeçalho {
-  max-width: 25%;
-  margin-left: -74.5%; /*Forma de forçar a logo ficar no inicio*/
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+#logo a {
+  text-decoration: none;
 }
 
 /* --- NAV --- */
@@ -85,16 +94,14 @@ nav {
 }
 
 /* --- MAIN --- */
-/*Login*/
+/*cadastro*/
 #container{
   background-image: url(../image/possivel_fundo-removebg-preview.png);
   background-repeat:no-repeat;
   background-position: bottom right;
   background-size: 500px;
-  
   height: 100vh;
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,6 +199,10 @@ nav {
   font-size: 15px bold;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.cadastro-botão{
+  margin-top: 30px;
 }
 
 .cadastro_button:hover{
