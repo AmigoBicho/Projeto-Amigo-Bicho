@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B
+);
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+}
+
+/* --- HEADER --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex: 10 10 100%;
+  background: #54b19d;
+  position: relative;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  max-width: 10%;
+  margin-left: 10px;
+}
+
+#logo a {
+  text-decoration: none;
+}
+/* --- NAV --- */
+nav {
+  background-color: #e3ebe8;
+  display: flex;
+  flex: 1 1 100vw;
+  justify-content: center;
+}
+
+.navegador_lista {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navegador_lista a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.navegador_lista li {
+  display: flex;
+  margin-right: 20px;
+  display: inline-block;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones_navegaçao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 3px;
+  text-align: right;
+  width: 20%;
+}
+
+.icones_acesso {
+  width: 22px;
+}
+
+.icones_navegaçao li {
+  padding: 0px 15px 0px;
+  display: inline-block;
+  
+}
+
+/* --- MAIN --- */
+/*rec-senha*/
+#container{
+  height: 100vh;
+  width: 100%;
+  background: #98CABF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../image/possivel_fundo-removebg-preview.png);
+  background-repeat:no-repeat;
+  background-position: bottom right;
+  background-size: 500px;
+}
+
+#rec_senha_form{
+  background-color: #ffffffab;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  border-radius: 10px;
+  gap: 15px;
+  box-shadow: 5px 5px 8px rgba(#fff, #fff, #fff, 0.336);
+  height: fit-content;
+}
+
+#form_header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form_header h1{
+  font-size: 30px;
+  color: #54B19D;
+  position: relative;
+}
+
+#inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.input-box{
+  font-size: 14px;
+  color: #847F7B;
+}
+
+.input-field{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  cursor: text;
+  border-bottom: 1px solid #847F7B;
+}
+
+.input-field i{
+  font-size: 18px;
+  color: #847F7B;
+}
+
+.input-field input{
+  border: none;
+  background-color: transparent;
+  width: 260px;
+  font-size: 15px;
+  padding: 0px 5px;
+}
+
+.input-field input:focus{
+  outline: none; /*marcação de campo*/
+ }
+
+.rec_senha_button{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  background-color: #54B19D;
+  color: #fff;
+  padding: 3.5px;
+  font-size: 15px bold;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+.rec_senha_button:hover{
+  transform: scale(1.05);
+}
+/*---------*/
+
+/*Carousel CSS*/
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%; 
+}
+
+.carousel-inner {
+  height: 100%;
+  font-family: Atma;
+}
+
+.carousel-item {
+  display: flex;
+  text-align: center;
+  align-self: center;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+h2, p{
+  text-align: start;
+}
+/*----------*/
+
+/*CARD*/
+.div_cards {
+  display: flex;
+  justify-content: center; 
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.card  {
+  margin: 25px;
+  align-items: center;
+}
+
+.card-body h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+.card-body a {
+  text-decoration: none;
+}
+
+/* Depoimentos */
+.depoimento{
+  background-color: #54b19d;
+  text-decoration: white;
+  width: 100%;
+}
+
+.depoimento h3 {
+  color: white;
+  font-family: Atma;
+  margin: 6px;
+  margin-left: 1%;
+}
+
+.depoimento-super{
+  margin: 0;
+}
+
+/* --- ASIDE --- */
+aside {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100vw;
+  background: #a8f1e0;
+}
+
+/* --- FOOTER --- */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #54b19d;
+  padding: 10px;
+}
+
+.rodape_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+}
+
+.lado_esquerdo {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado_direito {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape_direito {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.rodape_esquerdo {
+  padding:10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+} /* Adicionei o espaçamento para os lados nas letras*/
+
+
+
+
+
+
+
