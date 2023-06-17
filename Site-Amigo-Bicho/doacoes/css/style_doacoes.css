@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    flex: 1 1 100vw;
+    background-color: #99c5bb;
+  }
+  
+  /* --- HEADER --- */
+  header {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100vw;
+    background: #54b19d;
+    margin-top: auto;
+    position: relative;
+  }
+  
+  .logo_cabeçalho {
+    max-width: 25%;
+  }
+  
+  .botao_entrar {
+    font-family: "Atma", cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-color: #e3ebe8;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    margin-left: 67%;
+    align-self: center;
+    width: 85px;
+    height: 40px;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .botao_entrar {
+      display: block;
+      margin-left: 300px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* --- NAV --- */
+  nav {
+    background-color: #e3ebe8;
+    display: flex;
+    flex: 1 1 100vw;
+    justify-content: center;
+  }
+  
+  .navegador_lista {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .navegador_lista a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e1e1e;
+    text-align: center;
+  }
+  
+  .navegador_lista li {
+    display: flex;
+    margin-right: 20px;
+    display: inline-block;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icones_navegaçao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-top: 3px;
+    text-align: right;
+    width: 20%;
+  }
+  
+  .icones_acesso {
+    width: 22px;
+  }
+  
+  .icones_navegaçao li {
+    padding: 0px 15px 0px;
+    display: inline-block;
+  }
+
+  /* MAIN */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 100vw;
+    background: #a8f1e0ce;
+    align-self: center;
+  }
+
+/* CONTAINER DOS PETS */
+.container_menor {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffc9;
+    margin: 50px 80px;
+    padding: 50px 80px;
+    border-radius: 10px;
+    gap: 15px;
+    box-shadow: 5px 5px 8px rgba(#ffffff, #979393, #666565, 0.336);
+}
+
+.titulo h1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:  #3e4140;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+    font-weight: bold;
+}
+
+.container_pets {
+    display: flex;
+    justify-content: center;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.conjunto img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+    border: 2px solid #5BF4FF;
+}
+
+.conjunto p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color:  #3e4140;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+    font-size: 18px;
+}
+
+/* CONTAINER DA DIVISÃO EM PATINHAS */
+.divisao_patinhas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    
+}
+
+/* CONTAINER MAIOR SOBRE COMO DOAR */
+.container_maior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffffc9;
+    margin: 50px 80px;
+    padding: 50px 80px;
+    border-radius: 10px;
+    gap: 15px;
+    box-shadow: 5px 5px 8px rgba(#ffffff, #979393, #666565, 0.336);
+}
+
+.container_maior h1 {
+    color:  #3e4140;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+    font-weight: bold;
+}
+
+.container_maior ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color:  #3e4140;
+    text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+    font-size: 18px;
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+.sem_marcador {
+    list-style: none;
+
+}
+
+.com_espaço {
+    list-style: none;
+    text-indent: 24px;
+}
+
+/* RODAPÉ OU FOOTER */
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #54b19d;
+    padding: 10px;
+  }
+  
+  .rodape_principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+  }
+  
+  .lado_esquerdo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .lado_direito {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rodape_direito {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  
+  .rodape_esquerdo {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  } /* Adicionei o espaçamento para os lados nas letras*/
+  
