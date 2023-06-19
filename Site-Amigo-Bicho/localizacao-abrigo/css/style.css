@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  flex: 1 1 100vw;
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  justify-content: center;
+}
+
+.background {
+  background-color: #99C5BB;
+}
+
+/* --- HEADER --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex: 10 10 100%;
+  background: #54b19d;
+  position: relative;
+}
+
+#logo-botão{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo-botão img{
+  max-width: 40%;
+  margin-left: 10px;
+}
+
+#logo-botão button{
+  font-family: "Atma", cursive;
+  background-color: #e3ebe8;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  height: 40px;
+  width: 85px;
+  margin: 50px;
+  margin-right: 20px;
+}
+
+#logo-botão a {
+  text-decoration: none;
+}
+/*--------------*/
+
+/* --- NAV --- */
+nav {
+  background-color: #e3ebe8;
+  display: flex;
+  flex: 1 1 100vw;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.navegador_lista {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.navegador_lista a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.navegador_lista li {
+  display: flex;
+  margin-right: 20px;
+  display: inline-block;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones_navegaçao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 3px;
+  text-align: right;
+  width: 20%;
+  
+}
+
+.icones_acesso {
+  width: 22px;
+}
+
+.icones_navegaçao li {
+  padding: 0px 15px 0px;
+  display: inline-block;
+  
+}
+
+/* --- MAIN --- */
+main {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex: 1 1 100vw;
+  background: #a8f1e0ce;
+  align-self: center;
+}
+
+/* --- ASIDE --- */
+aside {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100vw;
+  background: #a8f1e0;
+}
+
+/* --- FOOTER --- */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #54b19d;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.rodape_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+}
+
+.lado_esquerdo {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado_direito {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape_direito {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.rodape_esquerdo {
+  padding:10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+} /* Adicionei o espaçamento para os lados nas letras*/
+
+
+/* Background - imagem - mapa*/
+
+.mapa {
+  display: flex;
+  margin: 50px;
+  margin-top: 10px;
+  background-color: #e3ebe8cf;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+}
+
+.mapa-image {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mapa-texto {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 50px;
+  color: #646A69;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+}
+
+.mapa-texto2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #847F7B;
+  font-size: 20px;
+  margin: 50px;
+}
+
