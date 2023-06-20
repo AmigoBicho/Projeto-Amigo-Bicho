@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B
+);
+@import url(https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap);
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  background-color: #99C5BB;
+}
+
+/* --- HEADER --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex: 10 10 100%;
+  background: #54b19d;
+  position: relative;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  max-width: 40%;
+  margin-right: 11px;
+  margin: 17.5px;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+/* --- NAV --- */
+nav {
+  background-color: #e3ebe8;
+  display: flex;
+  flex: 1 1 100vw;
+  justify-content: center;
+}
+
+.navegador_lista {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navegador_lista a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.navegador_lista li {
+  display: flex;
+  margin-right: 20px;
+  display: inline-block;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones_navegaçao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 3px;
+  text-align: right;
+  width: 20%;
+}
+
+.icones_acesso {
+  width: 22px;
+}
+
+.icones_navegaçao li {
+  padding: 0px 15px 0px;
+  display: inline-block;
+  
+}
+
+/* --- MAIN --- */
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  background-color: #99C5BB;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box {
+  background-color: #54B19D;
+  padding: 10px; 
+  border-radius: 20px; 
+  box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.336);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 10px; 
+  width: 90%; 
+}
+
+.patinhas{
+display: flex;
+justify-content: center;
+margin: 5px;
+}
+
+.box img {
+  width: 20%; 
+  height: auto; 
+  margin-right: 10px;
+  margin-left: 60px;
+  border-radius: 500px;
+}
+
+.content {
+  flex-grow: 0.5; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content h1,
+.content h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.box .content p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+#container .box .content h1{
+font-family: 'Nothing You Could Do', cursive;
+font-size: 50px;
+}
+
+#container .box .content h2{
+  font-family: 'Corpse' sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* --- FOOTER --- */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #54b19d;
+  padding: 10px;
+}
+
+.rodape_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+}
+
+.lado_esquerdo {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado_direito {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape_direito {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.rodape_esquerdo {
+  padding:10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+} /* Adicionei o espaçamento para os lados nas letras*/
+
+
+
+
+
+
+
