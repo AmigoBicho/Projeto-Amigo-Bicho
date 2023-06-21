@@ -16,12 +16,11 @@ body {
 }
 
 /* --- HEADER --- */
-header {
+body {
   display: flex;
-  justify-content: space-between;
-  flex: 10 10 100%;
-  background: #54b19d;
-  position: relative;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  background-color: #99c5bb;
 }
 
 #logo {
@@ -31,14 +30,14 @@ header {
 }
 
 #logo img {
-  max-width: 50%;
-  margin-left: 10px;
+  max-width: 40%;
+  margin-right: 11px;
+  margin: 17.5px;
 }
 
 #logo a {
   text-decoration: none;
 }
-
 /* --- NAV --- */
 nav {
   background-color: #e3ebe8;
