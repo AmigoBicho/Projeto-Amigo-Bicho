@@ -7,7 +7,6 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px;
   flex: 1 1 100vw;
   background-color: #99c5bb;
 }

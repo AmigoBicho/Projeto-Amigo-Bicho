@@ -7,7 +7,14 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px;
+  flex: 1 1 100vw;
+  background-color: #99c5bb;
+}
+
+/* --- HEADER --- */
+body {
+  display: flex;
+  flex-wrap: wrap;
   flex: 1 1 100vw;
   background-color: #99c5bb;
 }
@@ -15,43 +22,26 @@ body {
 /* --- HEADER --- */
 header {
   display: flex;
-  justify-content: center;
-  flex: 1 1 100vw;
+  justify-content: space-between;
+  flex: 10 10 100%;
   background: #54b19d;
-  margin-top: auto;
   position: relative;
 }
 
-.logo_cabeçalho {
-  max-width: 25%;
-}
-
-.botao_entrar {
-  font-family: "Atma", cursive;
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
-  background-color: #e3ebe8;
-  border: none;
-  border-radius: 5px;
-  align-self: center;
-  margin-left: 67%;
-  align-self: center;
-  width: 85px;
-  height: 40px;
+#logo {
   display: flex;
-  background-position: center;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-  .botao_entrar {
-    display: block;
-    margin-left: 300px;
-    margin-top: 10px;
-  }
+#logo img {
+  max-width: 40%;
+  margin-right: 11px;
+  margin: 17.5px;
+}
+
+#logo a {
+  text-decoration: none;
 }
 
 /* --- NAV --- */

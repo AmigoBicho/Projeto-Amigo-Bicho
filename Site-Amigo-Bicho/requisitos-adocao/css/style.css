@@ -12,18 +12,36 @@
   }
   
   /* --- HEADER --- */
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+    background-color: #99C5BB;
+  }
+  
+  /* --- HEADER --- */
   header {
     display: flex;
-    justify-content: center;
-    flex: 1 1 100vw;
+    justify-content: space-between;
+    flex: 10 10 100%;
     background: #54b19d;
-    margin-top: auto;
     position: relative;
   }
   
-  .logo_cabeçalho {
-    max-width: 25%;
-    margin-left: -74.5%; /*Forma de forçar a logo ficar no inicio*/
+  #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #logo img {
+    max-width: 40%;
+    margin-right: 11px;
+    margin: 17.5px;
+  }
+  
+  #logo a {
+    text-decoration: none;
   }
   
   /* --- NAV --- */
