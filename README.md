@@ -5,7 +5,7 @@
 
 ## Sobre
 
-Texto falando sobre o abrigo, a ideia do projeto e sobre a ideia do projeto.
+Texto falando sobre o abrigo, a ideia do projeto e sobre o projeto.
 
 ## Tecnologias
 
