@@ -58,7 +58,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 
 ## Características 
 
-As principais características do aplicativo são:
+As principais características do site são:
 - Adote um Pet
 - Faça uma Doação
 - Agenda Mensal de Eventos 
