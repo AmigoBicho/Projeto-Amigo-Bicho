@@ -5,6 +5,8 @@
 
 ## Sobre
 
+"A ideia de desenvolver o projeto"
+
 Um site fácil e intuitivo para dar suporte à um Abrigo de Animais já existe no Recife-PE.
 Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e até mesmo conhecer os beneficios no seu dia após adotar um Pet.
 
