@@ -38,6 +38,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ![Página de Catalogo](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/5094357f-41c3-4df9-96cc-67dfc5725e15)
 
 ### 6 - Você também pode fazer uma Doação.
+![doação](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/76ae83a3-02be-49f9-8812-5871fc999265)
 
 ### 7 - Você pode acessar nossa página de dúvidas frequênte. 
 ![Página de Dúvidas](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/4c3c3025-4a93-4f99-ac6e-cc887977d6ab)
