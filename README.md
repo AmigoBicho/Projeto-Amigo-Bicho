@@ -52,7 +52,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ### 11 - Você tbm pode se tornar um voluntário.
 ![Página de formulário](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d43f9304-c3b9-44c0-9f11-fabf395e97e1)
 
-### 12 - Site funcionando
+### 12 - Site Completo
 ![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
 
 ## Características 
