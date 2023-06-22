@@ -34,7 +34,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 
 ### 4 - Ao fazer login irá para a página de Perfil
 
-### 5 ...
+### 5 - ...
 
 ### ...n - Site funcionando
 ![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
