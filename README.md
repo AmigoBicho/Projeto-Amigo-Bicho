@@ -24,7 +24,7 @@ Texto falando sobre o abrigo, a ideia do projeto e sobre a ideia do projeto.
 
 ### 1 - Ao acessar o projeto, você verá esta página inicial.
 
-### 2 - Você pode fazer login no sistema e cadastrada.
+### 2 - Você pode fazer login no sistema e se cadastrada.
 
 ### 3 - Ou simplesmente crie sua conta.
 
