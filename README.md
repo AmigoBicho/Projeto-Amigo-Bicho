@@ -43,9 +43,9 @@ As principais características do aplicativo são:
 
 ## Autores
 
-- [Jose C. Messias](https://github.com/JoseCMessias)
 - [Rayane Reissler](https://github.com/rayanereissler)
 - [Brenda Miranda](https://github.com/brensmiranda)
+- [Jose C. Messias](https://github.com/JoseCMessias)
 - [Gabriel Oliveira](https://github.com/Gabrieira)
 - [Rafael Manoel]()
 
