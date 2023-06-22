@@ -33,7 +33,7 @@ Texto falando sobre o abrigo, a ideia do projeto e sobre o projeto.
 
 ### 5 ...
 
-## 6 - Site funcionando
+### 6 - Site funcionando
 ![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
 
 
