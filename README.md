@@ -23,6 +23,7 @@ Texto falando sobre o abrigo, a ideia do projeto e sobre a ideia do projeto.
 ## Como Usar
 
 ### 1 - Ao acessar o projeto, você verá esta página inicial.
+![Página Home](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/75bf1a1d-d26c-44a4-9c50-bc6ccb3077f6)
 
 ### 2 - Você pode fazer login no sistema e se cadastrada.
 
@@ -31,6 +32,10 @@ Texto falando sobre o abrigo, a ideia do projeto e sobre a ideia do projeto.
 ### 4 - Ao fazer login irá para a página de Perfil
 
 ### 5 ...
+
+## 6 - Site funcionando
+![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
+
 
 ## Características 
 
