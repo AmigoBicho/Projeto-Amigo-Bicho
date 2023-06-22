@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="369" alt="logo uau 2" src="https://github.com/JoseCMessias/auamigo/assets/104660308/9df08c12-bfaa-404f-a807-caf7121d7856">
+  <img width="408" alt="logo" src="https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/f72d6271-ce7f-4b3d-a138-7cbdd399376d">
   <p>Faça um Animal Feliz</p>
 </h1>
 
