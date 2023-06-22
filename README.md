@@ -32,13 +32,28 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 
 ### 3 - Ou simplesmente crie sua conta.
 
-### 4 - Ao fazer login irá para a página de Perfil
+### 4 - Ao fazer login irá para a página de Perfil.
 
-### 5 - ...
+### 5 - Você pode visualizar o catálogo de Pets e fazer uma adorção.
+![Página de Catalogo](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/5094357f-41c3-4df9-96cc-67dfc5725e15)
 
-### ...n - Site funcionando
+### 6 - Você também pode fazer uma Doação.
+
+### 7 - Você pode acessar nossa página de dúvidas frequênte. 
+![Página de Dúvidas](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/4c3c3025-4a93-4f99-ac6e-cc887977d6ab)
+
+### 8 - Ou saber um pouco mais sobre a história do abrigo.
+
+### 9 - Localização do Abrigo Amigo Bicho.
+
+### 10 - Ou ter acessoa a agenda mensal de eventos do Abrigo.
+![Página de Agenda](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/3186407e-49bf-4181-b939-37aff9855a73)
+
+### 11 - Você tbm pode se tornar um voluntário.
+![Página de formulário](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d43f9304-c3b9-44c0-9f11-fabf395e97e1)
+
+### 12 - Site funcionando
 ![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
-
 
 ## Características 
 
