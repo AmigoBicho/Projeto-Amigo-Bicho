@@ -32,7 +32,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ![LOGIN](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/c30b1c85-a62f-4466-a047-da89428b988a)
 
 ### 3 - Ou crie sua conta.
-![CADASTRO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/11951865-56ea-4243-9f63-2357375c1a3f)
+![CADASTRO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/0e0be817-d2eb-4375-81d8-9c37cec85582)
 
 ### 4 - E também pode simplismente recuperar a sua senha.
 ![REC-SENHA](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/639d276b-91dd-44fa-ac03-b02394ff3c60)
