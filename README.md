@@ -12,7 +12,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 
 ## Tecnologias
 
-- [Figma](https://www.figma.com/login)
+- [Figma](https://www.figma.com)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
