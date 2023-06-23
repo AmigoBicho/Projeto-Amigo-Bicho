@@ -43,17 +43,22 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ### 7 - Você pode acessar nossa página de dúvidas frequentes. 
 ![Página de Dúvidas](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/4c3c3025-4a93-4f99-ac6e-cc887977d6ab)
 
-### 8 - Ou saber um pouco mais sobre a história do abrigo.
+### 8 - Ou saber os requisitos para adoção acessando essa página. 
+![requisitos](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/8800dd25-6abb-4798-bb16-a128ad61d9a1)
 
-### 9 - Localização do Abrigo Amigo Bicho.
+### 9 - Você pode saber um pouco mais sobre a história do abrigo.
+![nossa-historia](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/cd477ec5-b08c-4c29-b718-cf0965fc7ed9)
 
-### 10 - Ou ter acessoa a agenda mensal de eventos do Abrigo.
+### 10 - E até descobrir a Localização do Abrigo Amigo Bicho.
+![localização](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/083974f4-42e0-4b4e-8d45-ec22c64431aa)
+
+### 11 - Você pode ter acesso a agenda mensal de eventos do Abrigo.
 ![Página de Agenda](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/3186407e-49bf-4181-b939-37aff9855a73)
 
-### 11 - Você tbm pode se tornar um voluntário.
+### 12 - E tbm pode se tornar um voluntário.
 ![Página de formulário](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d43f9304-c3b9-44c0-9f11-fabf395e97e1)
 
-### 12 - Site Completo
+### 13 - Site Completo
 ![Site-](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/9e589358-e67a-4caa-8692-5dcc67fd68b6)
 
 ## Características 
