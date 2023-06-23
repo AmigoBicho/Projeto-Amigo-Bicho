@@ -29,10 +29,16 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ![Página Home](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/75bf1a1d-d26c-44a4-9c50-bc6ccb3077f6)
 
 ### 2 - Você pode fazer login no sistema e se cadastrada.
+![Loginn](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/174bfbde-a396-42ac-8216-02678fbfceb4)
 
-### 3 - Ou simplesmente crie sua conta.
+### 3 - Ou crie sua conta.
+![Cadastro](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/93ad43ee-d104-43e8-9fe0-47a4665f8d2b)
+
+### 4 - E também pode simplismente recuperar a sua senha.
+![rec-senha](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d82f5e22-f7e9-455b-8618-a23b40907d1e)
 
 ### 4 - Ao fazer login irá para a página de Perfil.
+![perfil](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/75bf6ad4-ac25-40e3-847a-98ca5eb27515)
 
 ### 5 - Você pode visualizar o catálogo de Pets e fazer uma adoção.
 ![Página de Catalogo](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/5094357f-41c3-4df9-96cc-67dfc5725e15)
