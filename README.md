@@ -34,7 +34,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 
 ### 4 - Ao fazer login irá para a página de Perfil.
 
-### 5 - Você pode visualizar o catálogo de Pets e fazer uma adorção.
+### 5 - Você pode visualizar o catálogo de Pets e fazer uma adoção.
 ![Página de Catalogo](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/5094357f-41c3-4df9-96cc-67dfc5725e15)
 
 ### 6 - Você também pode fazer uma Doação.
