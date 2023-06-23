@@ -26,43 +26,43 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ## Como Usar
 
 ### 1 - Ao acessar o projeto, você verá esta página inicial.
-![Página Home](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/75bf1a1d-d26c-44a4-9c50-bc6ccb3077f6)
+![HOME](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/57461254-cdfe-4c56-a6bf-5c7ca40b84c8)
 
 ### 2 - Você pode fazer login no sistema e se cadastrada.
-![Loginn](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/174bfbde-a396-42ac-8216-02678fbfceb4)
+![LOGIN](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/c30b1c85-a62f-4466-a047-da89428b988a)
 
 ### 3 - Ou crie sua conta.
-![Cadastro](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/93ad43ee-d104-43e8-9fe0-47a4665f8d2b)
+![CADASTRO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/11951865-56ea-4243-9f63-2357375c1a3f)
 
 ### 4 - E também pode simplismente recuperar a sua senha.
-![rec-senha](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d82f5e22-f7e9-455b-8618-a23b40907d1e)
+![REC-SENHA](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/639d276b-91dd-44fa-ac03-b02394ff3c60)
 
 ### 4 - Ao fazer login irá para a página de Perfil.
-![perfil](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/75bf6ad4-ac25-40e3-847a-98ca5eb27515)
+![PERFIL](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/a24484da-6ba8-427f-8d55-71923668f8b7)
 
 ### 5 - Você pode visualizar o catálogo de Pets e fazer uma adoção.
-![Página de Catalogo](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/5094357f-41c3-4df9-96cc-67dfc5725e15)
+![CATALOGO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/68d8bb43-1972-426c-bee2-6bf1bb577fd5)
 
 ### 6 - Você também pode fazer uma Doação.
-![doação](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/76ae83a3-02be-49f9-8812-5871fc999265)
+![DOAÇÃO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/ae4ad86c-a99f-458d-8610-bbab5abdfb67)
 
 ### 7 - Você pode acessar nossa página de dúvidas frequentes. 
-![Página de Dúvidas](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/4c3c3025-4a93-4f99-ac6e-cc887977d6ab)
+![DUVIDAS](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/82f6f152-bc1f-4307-9fb6-850345b0230f)
 
 ### 8 - Ou saber os requisitos para adoção acessando essa página. 
-![requisitos](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/8800dd25-6abb-4798-bb16-a128ad61d9a1)
+![REQUISITOS](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/ccf736df-97ed-455d-8965-8e8b40d55b4a)
 
 ### 9 - Você pode saber um pouco mais sobre a história do abrigo.
-![nossa-historia](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/cd477ec5-b08c-4c29-b718-cf0965fc7ed9)
+![HISTÓRIA](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/2bbe18b1-209f-4716-8f0c-3073ed990b72)
 
 ### 10 - E até descobrir a Localização do Abrigo Amigo Bicho.
-![localização](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/083974f4-42e0-4b4e-8d45-ec22c64431aa)
+![LOCALIZAÇÃO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/487d9678-573d-4ee6-9020-5cebba439254)
 
 ### 11 - Você pode ter acesso a agenda mensal de eventos do Abrigo.
-![Página de Agenda](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/3186407e-49bf-4181-b939-37aff9855a73)
+![AGENDA](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/f76d9196-61b6-4005-8588-a417d167dbbe)
 
 ### 12 - E tbm pode se tornar um voluntário.
-![Página de formulário](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d43f9304-c3b9-44c0-9f11-fabf395e97e1)
+![FORMULARIO](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/a7849b6d-cfbd-4406-99b9-8306de78f2ca)
 
 ## Características 
 
