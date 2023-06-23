@@ -26,7 +26,7 @@ Nele você pode adotar um Pet, contribuir com doação, ser um voluntário e at�
 ## Como Usar
 
 ### 1 - Ao acessar o projeto, você verá esta página inicial.
-![HOME](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/57461254-cdfe-4c56-a6bf-5c7ca40b84c8)
+![HOME](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/50cb7e9c-e69b-4003-b760-15caa971ef43)
 
 ### 2 - Você pode fazer login no sistema e se cadastrada.
 ![LOGIN](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/c30b1c85-a62f-4466-a047-da89428b988a)
