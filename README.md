@@ -79,7 +79,7 @@ As principais características do site são:
 - [Brenda Miranda](https://github.com/brensmiranda)
 - [Jose C. Messias](https://github.com/JoseCMessias)
 - [Gabriel Oliveira](https://github.com/Gabrieira)
-- [Rafael Manoel]()
+- [Rafael Manoel](https://github.com/faelsi)
 
 ## Licença
 
