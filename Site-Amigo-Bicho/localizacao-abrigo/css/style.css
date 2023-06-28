@@ -4,20 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 100vw;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
-  justify-content: center;
-}
-
-.background {
-  background-color: #99C5BB;
-}
-
 /* --- HEADER --- */
 header {
   display: flex;
@@ -42,46 +28,6 @@ header {
 #logo a {
   text-decoration: none;
 }
-/*--------------*/
-
-/* --- HEADER --- */
-header {
-  display: flex;
-  justify-content: space-between;
-  flex: 10 10 100%;
-  background: #54b19d;
-  position: relative;
-}
-
-#logo-botão{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#logo-botão img{
-  max-width: 40%;
-  margin-left: 10px;
-}
-
-#logo-botão button{
-  font-family: "Atma", cursive;
-  background-color: #e3ebe8;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 20px;
-  border: none;
-  height: 40px;
-  width: 85px;
-  margin: 50px;
-  margin-right: 20px;
-}
-
-#logo-botão a {
-  text-decoration: none;
-}
-/*--------------*/
 
 /* --- NAV --- */
 nav {
@@ -89,7 +35,8 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
-  margin-bottom: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navegador_lista {
@@ -99,7 +46,6 @@ nav {
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  
 }
 
 .navegador_lista a {
@@ -127,7 +73,6 @@ nav {
   padding-top: 3px;
   text-align: right;
   width: 20%;
-  
 }
 
 .icones_acesso {
@@ -140,32 +85,61 @@ nav {
   
 }
 
-/* --- MAIN --- */
-main {
+body {
   display: flex;
-  justify-content: center;
-  margin: 10px;
+  flex-wrap: wrap;
   flex: 1 1 100vw;
-  background: #a8f1e0ce;
-  align-self: center;
+  background-color: #99c5bb;
+  justify-content: center;
+  align-items: center;
 }
 
-/* --- ASIDE --- */
-aside {
+.mapa {
+  background-color: #e3ebe8ce;
   display: flex;
-  justify-content: center;
-  flex: 1 1 100vw;
-  background: #a8f1e0;
+  flex-direction: column;
+  margin: 50px 100px;
+  padding: 50px;
+  border-radius: 10px;
+  gap: 15px;
+  box-shadow: 5px 5px 8px rgba(#fff, #979393, #666565, 0.336);
 }
 
-/* --- FOOTER --- */
+.mapa h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #3e4140;
+  text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+  padding-bottom: 25px;
+}
+
+.mapa-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa h2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #3e4140;
+  text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
+  padding-top: 25px;
+}
+
+/* --- FOOTER / RODAPÉ --- */
 footer {
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #54b19d;
   padding: 10px;
-  margin-top: 150px;
 }
 
 .rodape_principal {
@@ -198,57 +172,3 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
-
-
-/* Background - imagem - mapa*/
-
-.mapa {
-  display: flex;
-  margin: 50px;
-  margin-top: 10px;
-  background-color: #e3ebe8cf;
-  align-self: center;
-  justify-content: center;
-  flex-direction: column;
-  border: none;
-  border-radius: 10px;
-}
-
-.mapa-image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.mapa-texto {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  font-size: 40px;
-  text-decoration: none;
-  margin: 50px;
-  color: #646A69;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: bold;
-}
-
-.mapa-texto2 {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  align-items: center;
-  text-transform: capitalize;
-  color: #847F7B;
-  font-size: 20px;
-  margin: 50px;
-}
-
