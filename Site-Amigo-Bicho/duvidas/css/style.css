@@ -122,9 +122,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #3e4140;
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
+  color: #3e4140;
   text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
     
 }
