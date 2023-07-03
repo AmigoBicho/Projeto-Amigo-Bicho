@@ -31,6 +31,14 @@ header {
   margin: 17.5px;
 }
 
+/* configuracao da logo no cabeçalho para telas menores:  */
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
 #logo a {
   text-decoration: none;
 }
@@ -82,6 +90,18 @@ nav {
   width: 22px;
 }
 
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
@@ -110,16 +130,20 @@ main {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-<<<<<<< HEAD
-=======
-@media screen and (max-width: 900px){
-  img{
-    height: 90%;
-    width: 90%;
+
+/* configuração da imagem do calendario para telas menores */
+@media (max-width: 768px) {
+  .imagem-centro img {
+    height: 370px;
+  }
+
+  .imagem-centro {
+    margin:0;
+    padding: 50px 15px;
   }
 }
 
->>>>>>> fea0c8301e87bc6cbe203374bbf895a5918ad217
+
 footer {
   left: 0;
   bottom: 0;
@@ -157,4 +181,11 @@ footer {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+/* configuraçao do rodapé para telas menores */
+@media (max-width: 768px) {
+  .rodape_principal a {
+    font-size: 12px;
+  }
 }
