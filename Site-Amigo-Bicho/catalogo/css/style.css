@@ -38,6 +38,14 @@ header {
   margin: 17.5px;
 }
 
+/* configuracao da logo no cabeçalho para telas menores:  */
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
 #logo a {
   text-decoration: none;
 }
@@ -76,6 +84,14 @@ nav {
   justify-content: center;
 }
 
+/* configuracao do nav para telas menores:  */
+@media (max-width: 768px){
+  .navegador_lista li {
+    font-size: 12px;
+  }
+
+}
+
 .icones_navegaçao {
   display: flex;
   justify-content: flex-end;
@@ -88,6 +104,14 @@ nav {
 
 .icones_acesso {
   width: 22px;
+}
+
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+  
 }
 
 .icones_navegaçao li {
@@ -126,10 +150,11 @@ main{
   width: 90%; 
 }
 
+
 .patinhas{
 display: flex;
 justify-content: center;
-margin: 5px;
+margin: 10px;
 }
 
 .box img {
@@ -137,7 +162,8 @@ margin: 5px;
   height: auto; 
   margin-right: 10px;
   margin-left: 60px;
-  border-radius: 500px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .content {
@@ -167,10 +193,68 @@ font-family: 'Nothing You Could Do', cursive;
 font-size: 50px;
 }
 
+
 #container .box .content h2{
   font-family: 'Corpse' sans-serif;
   color: #fff;
   font-size: 15px;
+}
+
+
+/* configuraçao das div do catálogo para telas menores */
+
+@media (max-width:768px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+ 
+  }
+
+  .box img {
+  margin: 0;
+  align-items: center;
+  justify-items: center;
+  width: 40%; 
+  height: auto; 
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+  #container .box .content h1{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 32px;
+  padding: 10px;
+}
+
+  #container .box .content h2 {
+    font-size: 14px;
+  }
+
+  #container .box .content p {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
+
+.marcador_pag h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  padding-top: 15px;
+  color: #1e1e1e;
+}
+
+@media (max-width:768px) {
+  .marcador_pag h5 {
+    font-size: 12px;
+  }
+}
+
+.marcador_pag a {
+  text-decoration: none;
 }
 
 /* --- FOOTER --- */
@@ -214,7 +298,12 @@ footer {
 } /* Adicionei o espaçamento para os lados nas letras*/
 
 
-
+/* configuraçao do rodapé para telas menores */
+@media (max-width: 768px) {
+  .rodape_principal a {
+    font-size: 12px;
+  }
+}
 
 
 
