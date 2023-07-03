@@ -35,6 +35,15 @@ header {
   margin: 17.5px;
 }
 
+/* configuracao da logo no cabeçalho para telas menores:  */
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
+
 #logo a {
   text-decoration: none;
 }
@@ -87,6 +96,18 @@ nav {
   width: 22px;
 }
 
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
@@ -115,6 +136,13 @@ nav {
   gap: 15px;
   box-shadow: 5px 5px 8px rgba(#fff, #fff, #fff, 0.336);
   height: fit-content;
+}
+
+@media (max-width:768px) {
+  #cadastro_form {
+    padding: 30px;
+    
+  }
 }
 
 #form_header {
@@ -246,3 +274,11 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
+
+
+/* configuraçao do rodapé para telas menores */
+@media (max-width: 768px) {
+  .rodape_principal a {
+    font-size: 12px;
+  }
+}
