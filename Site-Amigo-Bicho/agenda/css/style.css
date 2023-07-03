@@ -11,7 +11,6 @@ body {
   background-color: #99c5bb;
 }
 
-/* --- HEADER --- */
 header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +35,6 @@ header {
   text-decoration: none;
 }
 
-/* --- NAV --- */
 nav {
   background-color: #e3ebe8;
   display: flex;
@@ -89,7 +87,6 @@ nav {
   display: inline-block;
 }
 
-/* MAIN */
 main {
   display: flex;
   flex-direction: column;
@@ -113,7 +110,13 @@ main {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-/* RODAPÉ OU FOOTER */
+@media screen and (max-width: 900px){
+  img{
+    height: 90%;
+    width: 90%;
+  }
+}
+
 footer {
   left: 0;
   bottom: 0;
