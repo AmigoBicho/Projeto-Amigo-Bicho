@@ -24,6 +24,14 @@ header {
   margin: 17.5px;
 }
 
+/* configuracao da logo no cabeçalho para telas menores:  */
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
 #logo a {
   text-decoration: none;
 }
@@ -63,6 +71,7 @@ nav {
   justify-content: center;
 }
 
+
 .icones_navegaçao {
   display: flex;
   justify-content: flex-end;
@@ -77,6 +86,17 @@ nav {
   width: 22px;
 }
 
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
@@ -119,19 +139,6 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 1200px){
-  iframe{
-    width: 800px;
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 1000px){
-  iframe{
-    width: 500px;
-    height: 500px;
-  }
-}
 
 .mapa h2 {
   display: flex;
@@ -142,6 +149,28 @@ body {
   color: #3e4140;
   text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
   padding-top: 25px;
+}
+
+@media screen and (max-width: 1200px){
+  iframe{
+    width: 600px;
+    height: 600px;
+  }
+
+  .mapa h1 {
+    font-size: 17px;
+  }
+
+  .mapa h2 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  iframe{
+    width: 300px;
+    height: 300px;
+  }
 }
 
 footer {
@@ -182,3 +211,10 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 } 
+
+/* configuraçao do rodapé para telas menores */
+@media (max-width: 768px) {
+  .rodape_principal a {
+    font-size: 12px;
+  }
+}
