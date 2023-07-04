@@ -32,6 +32,13 @@
     margin: 17.5px;
   }
   
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
   #logo a {
     text-decoration: none;
   }
@@ -84,6 +91,19 @@
     width: 22px;
   }
   
+
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
   .icones_navegaçao li {
     padding: 0px 15px 0px;
     display: inline-block;
@@ -129,6 +149,8 @@ main {
     
 }
 
+
+
 .topicos_duvidas ul li h2 {
     display: block;
     justify-content: flex-start;
@@ -141,6 +163,7 @@ main {
     
     
 }
+
 
 .topicos_duvidas ul li p {
     display: block;
@@ -155,6 +178,9 @@ main {
     text-indent: 20px;
     text-decoration: none;
 }
+
+
+
 
 .nao_tem_marcador {
     list-style-type: none;
@@ -181,6 +207,45 @@ main {
 .me_adota a {
     text-decoration: none;
     text-align: center;
+}
+
+@media (max-width:768px) {
+
+  main {
+    background-image: url(../imagens/pets.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container_duvidas {
+    margin: 50px 50px;
+    padding: 50px 50px;
+  }
+
+  .titulo h1 {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .topicos_duvidas ul li h2 {
+    font-size: 15px;
+  }
+
+  .topicos_duvidas ul li p {
+    font-size: 15px;
+  }
+
+  .me_adota p {
+    font-size: 17px;
+  }
+
+
 }
 
 /* --- FOOTER / RODAPÉ --- */
@@ -223,3 +288,11 @@ footer {
     font-weight: bold;
   } /* Adicionei o espaçamento para os lados nas letras*/
   
+
+  /* configuraçao do rodapé para telas menores */
+@media (max-width: 600px) {
+  .rodape_principal a {
+    font-size: 12px;
+
+  }
+}
