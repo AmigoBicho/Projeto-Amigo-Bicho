@@ -32,6 +32,15 @@
     margin: 17.5px;
   }
   
+/* configuracao da logo no cabeçalho para telas menores:  */
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
+
   #logo a {
     text-decoration: none;
   }
@@ -84,6 +93,18 @@
     width: 22px;
   }
   
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
   .icones_navegaçao li {
     padding: 0px 15px 0px;
     display: inline-block;
@@ -105,8 +126,8 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffffc9;
-    margin: 50px 80px;
-    padding: 50px 80px;
+    margin: 50px 30px;
+    padding: 50px 20px;
     border-radius: 10px;
     gap: 15px;
     box-shadow: 5px 5px 8px rgba(#ffffff, #979393, #666565, 0.336);
@@ -124,10 +145,37 @@
     font-weight: bold;
 }
 
+@media (max-width:768px) {
+  .titulo h1 {
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .container_menor {
+    margin: 30px 15px;
+    padding: 20px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+
+  }
+}
+
 .container_pets {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    
 }
+
+
 
 .conjunto {
     display: flex;
@@ -154,6 +202,8 @@
     font-size: 18px;
 }
 
+
+
 /* CONTAINER DA DIVISÃO EM PATINHAS */
 .divisao_patinhas {
     display: flex;
@@ -165,6 +215,12 @@
     
 }
 
+@media (max-width: 768px) {
+  .divisao_patinhas {
+    width: 120px;
+  }
+}
+
 /* CONTAINER MAIOR SOBRE COMO DOAR */
 .container_maior {
     display: flex;
@@ -172,11 +228,12 @@
     align-items: center;
     align-content: center;
     background-color: #ffffffc9;
-    margin: 50px 80px;
-    padding: 50px 80px;
+    margin: 50px 30px;
+    padding: 50px 20px;
     border-radius: 10px;
     gap: 15px;
     box-shadow: 5px 5px 8px rgba(#ffffff, #979393, #666565, 0.336);
+    
 }
 
 .container_maior h1 {
@@ -186,6 +243,7 @@
     text-shadow: 2px 2px 4px rgba(68, 67, 67, 0.5);
     font-weight: bold;
 }
+
 
 .container_maior ul li {
     font-family: "Roboto", sans-serif;
@@ -202,10 +260,45 @@
 
 }
 
+@media (max-width:768px) {
+  .container_pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .conjunto p {
+    font-size: 16px;
+  }
+
+  .container_maior h1 {
+    font-size: 17px;
+    text-align: center;
+    
+  }
+
+  .container_maior {
+    margin: 30px 15px;
+    padding: 30px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    align-self:center;
+  }
+
+  .container_maior ul li {
+    font-size: 16px;
+    
+  }
+}
+
 .com_espaço {
     list-style: none;
     text-indent: 24px;
 }
+
 
 /* RODAPÉ OU FOOTER */
 
@@ -249,3 +342,11 @@ footer {
     font-weight: bold;
   } /* Adicionei o espaçamento para os lados nas letras*/
   
+  
+/* configuraçao do rodapé para telas menores */
+@media (max-width: 600px) {
+  .rodape_principal a {
+    font-size: 12px;
+
+  }
+}
