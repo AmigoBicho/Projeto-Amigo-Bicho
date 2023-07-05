@@ -18,8 +18,6 @@ body {
   background-color: #99C5BB;
 }
 
-/* Quadrinhos formulario e fundo*/
-
 .retanguloMaior{
   display: flex;
   box-sizing: border-box;
@@ -108,7 +106,6 @@ body {
   margin-top: 20px;
 }
 
-/* --- HEADER --- */
 header {
   display: flex;
   justify-content: space-between;
@@ -133,7 +130,6 @@ header {
   text-decoration: none;
 }
 
-/* --- NAV --- */
 nav {
   background-color: #e3ebe8;
   display: flex;
@@ -189,7 +185,6 @@ nav {
   display: inline-block;
 }
 
-/* --- ASIDE --- */
 aside {
   display: flex;
   justify-content: center;
@@ -197,7 +192,6 @@ aside {
   background: #a8f1e0;
 }
 
-/* --- FOOTER --- */
 footer {
   left: 0;
   bottom: 0;
@@ -210,7 +204,7 @@ footer {
 .rodape_principal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+  justify-content: space-between; 
 }
 
 .lado_esquerdo {
@@ -236,7 +230,7 @@ footer {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-} /* Adicionei o espaçamento para os lados nas letras*/
+} 
 
 
 
