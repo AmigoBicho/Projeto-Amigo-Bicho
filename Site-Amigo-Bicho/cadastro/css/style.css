@@ -14,7 +14,6 @@ body {
   background-color: #99c5bb;
 }
 
-/* --- HEADER --- */
 header {
   display: flex;
   justify-content: space-between;
@@ -48,7 +47,6 @@ header {
   text-decoration: none;
 }
 
-/* --- NAV --- */
 nav {
   background-color: #e3ebe8;
   display: flex;
@@ -113,8 +111,6 @@ nav {
   display: inline-block;
 }
 
-/* --- MAIN --- */
-/*cadastro*/
 #container {
   background-image: url(../image/possivel_fundo-removebg-preview.png);
   background-repeat: no-repeat;
@@ -220,7 +216,6 @@ nav {
   background-color: #54b19d;
   color: #fff;
   padding: 3.5px;
-
   font-size: 15px bold;
   border-radius: 10px;
   font-weight: bold;
@@ -233,9 +228,7 @@ nav {
 .cadastro_button:hover {
   transform: scale(1.05);
 }
-/*---------*/
 
-/* --- FOOTER --- */
 footer {
   left: 0;
   bottom: 0;
@@ -247,7 +240,7 @@ footer {
 .rodape_principal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+  justify-content: space-between;
 }
 
 .lado_esquerdo {
@@ -273,8 +266,7 @@ footer {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-} /* Adicionei o espaçamento para os lados nas letras*/
-
+} 
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
