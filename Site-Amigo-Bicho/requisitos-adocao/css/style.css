@@ -40,6 +40,14 @@
     margin: 17.5px;
   }
   
+  @media (max-width: 768px) {
+    #logo  img {
+      width: 80%;
+      margin: 10px;
+    }
+  }
+
+  
   #logo a {
     text-decoration: none;
   }
@@ -97,6 +105,19 @@
     display: inline-block;
     
   }
+  
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
 
 /* --- MAIN/CONTAINER DUVIDAS --- */
 
@@ -165,7 +186,6 @@ main {
     text-decoration: none; 
 }
 
-
 .me_adota {
     display: flex;
     flex-direction: column;
@@ -189,6 +209,34 @@ main {
     text-decoration: none;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+  #container_requisitos {
+    margin: 30px 60px;
+    padding: 30px 50px;
+  }
+
+  .titulo h1 {
+    font-size: 18px;
+  }
+
+  .paragrafo_requisitos {
+    font-size: 15px;
+  }
+
+  .topicos_duvidas ul li p {
+    font-size: 15px;
+  }
+
+  .me_adota p {
+    font-size: 17px;
+  }
+
+  .me_adota {
+    padding-top: 15px;
+  }
+}
+
 
 /* --- FOOTER / RODAPÉ --- */
 footer {
@@ -230,3 +278,10 @@ footer {
     font-weight: bold;
   } /* Adicionei o espaçamento para os lados nas letras*/
   
+  /* configuraçao do rodapé para telas menores */
+  @media (max-width: 600px) {
+    .rodape_principal a {
+      font-size: 12px;
+  
+    }
+  }
