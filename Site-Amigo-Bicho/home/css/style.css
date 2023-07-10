@@ -219,23 +219,51 @@ p {
   margin-left: 1%;
 }
 
+@media (max-width: 768px) {
+  .depoimento h3 {
+    text-align: center;
+  }
+}
+
 .depoimento-super {
   margin: 0;
 }
 
 @media (max-height: 780px) {
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .div_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card img {
     max-width: 60%;
-    margin-top: 35px;
+    margin: 0px;
+
   }
 
   .card h5 {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .card2 img {
     max-width: 80%;
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
