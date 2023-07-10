@@ -14,12 +14,9 @@ body {
   justify-content: center;
 }
 
-<<<<<<< Updated upstream
 .background {
   background-color: #99C5BB;
 }
-
-/* Quadrinhos formulario e fundo*/
 
 .retanguloMaior{
   display: flex;
@@ -108,10 +105,7 @@ body {
   color:#FFFFFF;
   margin-top: 20px;
 }
-=======
->>>>>>> Stashed changes
 
-/* --- HEADER --- */
 header {
   display: flex;
   justify-content: space-between;
@@ -145,7 +139,6 @@ header {
   text-decoration: none;
 }
 
-/* --- NAV --- */
 nav {
   background-color: #e3ebe8;
   display: flex;
@@ -213,8 +206,11 @@ nav {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* --- ASIDE --- */
+=======
+>>>>>>> 4809fc85e30224ad0b5467180a11be45275b1867
 aside {
 =======
 
@@ -223,6 +219,7 @@ aside {
   background-color: #99C5BB;
 }
 
+<<<<<<< HEAD
 .retanguloMaior{
 >>>>>>> Stashed changes
   display: flex;
@@ -337,6 +334,8 @@ aside {
 
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> 4809fc85e30224ad0b5467180a11be45275b1867
 footer {
   left: 0;
   bottom: 0;
@@ -349,7 +348,7 @@ footer {
 .rodape_principal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adicionando o space-between para colocar os itens nas laterais */
+  justify-content: space-between; 
 }
 
 .lado_esquerdo {
@@ -375,7 +374,7 @@ footer {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-} /* Adicionei o espaçamento para os lados nas letras*/
+} 
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
