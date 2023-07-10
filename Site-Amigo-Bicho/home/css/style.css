@@ -20,18 +20,18 @@ header {
   position: relative;
 }
 
-#logo-botão{
+#logo-botao {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#logo-botão img{
+#logo-botao img {
   max-width: 40%;
   margin-left: 10px;
 }
 
-#logo-botão button{
+#logo-botao button {
   font-family: "Atma", cursive;
   background-color: #e3ebe8;
   font-weight: bold;
@@ -45,7 +45,7 @@ header {
   margin-right: 20px;
 }
 
-#logo-botão a {
+#logo-botao a {
   text-decoration: none;
 }
 
@@ -127,7 +127,6 @@ main {
 
 .carousel-inner {
   height: 100%;
-  font-family: Atma;
 }
 
 .carousel-item {
@@ -158,7 +157,7 @@ p {
 }
 
 .card {
-  margin: 25px;
+  margin: 20px;
   align-items: center;
 }
 
@@ -168,11 +167,24 @@ p {
   color: #1e1e1e;
   text-align: center;
 }
+
 .card-body a {
   text-decoration: none;
 }
 
 /* Depoimentos */
+.div_cards2 {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  margin: 20px;
+  align-items: center;
+}
+
 .depoimento {
   background-color: #54b19d;
   text-decoration: white;
@@ -237,3 +249,28 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
+
+@media screen and (max-height: 768px) {
+  #logo-botao img {
+    max-width: 55%;
+  }
+
+  #logo-botao button {
+    max-width: 40%;
+    height: 30px;
+    font-size: 15px;
+  }
+  .card img {
+    max-width: 60%;
+    margin-top: 35px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .card2 img {
+    max-width: 80%;
+  }
+}
