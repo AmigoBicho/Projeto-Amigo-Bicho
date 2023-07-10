@@ -197,6 +197,14 @@ footer {
 
 }
 
+  /* configuraçao do rodapé para telas menores */
+  @media (max-width: 600px) {
+    .rodape_principal a {
+      font-size: 12px;
+  
+    }
+  }
+  
 
 
 
