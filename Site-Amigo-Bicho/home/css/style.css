@@ -29,6 +29,8 @@ header {
 #logo-botao img {
   max-width: 40%;
   margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #logo-botao button {
@@ -41,12 +43,20 @@ header {
   border: none;
   height: 40px;
   width: 85px;
-  margin: 50px;
-  margin-right: 20px;
+  margin: 20px;
+  margin-left: 30%;
 }
 
 #logo-botao a {
   text-decoration: none;
+}
+
+@media (max-height: 768px) {
+  #logo-botao button {
+    max-width: 40%;
+    height: 30px;
+    font-size: 13px;
+  }
 }
 
 /* --- NAV --- */
@@ -100,6 +110,16 @@ nav {
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
 }
 
 /* --- MAIN --- */
@@ -181,7 +201,8 @@ p {
 }
 
 .card2 {
-  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   align-items: center;
 }
 
@@ -200,6 +221,22 @@ p {
 
 .depoimento-super {
   margin: 0;
+}
+
+@media (max-height: 780px) {
+  .card img {
+    max-width: 60%;
+    margin-top: 35px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .card2 img {
+    max-width: 80%;
+  }
 }
 
 /* --- ASIDE --- */
@@ -250,27 +287,8 @@ footer {
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
 
-@media screen and (max-height: 768px) {
-  #logo-botao img {
-    max-width: 55%;
-  }
-
-  #logo-botao button {
-    max-width: 40%;
-    height: 30px;
-    font-size: 15px;
-  }
-  .card img {
-    max-width: 60%;
-    margin-top: 35px;
-  }
-
-  .card h5 {
-    font-size: 15px;
-    margin-top: 20px;
-  }
-
-  .card2 img {
-    max-width: 80%;
+@media (max-width: 600px) {
+  .rodape_principal a {
+    font-size: 12px;
   }
 }
