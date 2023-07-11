@@ -137,7 +137,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40%;
+  height: 30%;
   overflow: hidden;
 }
 
@@ -198,6 +198,7 @@ p {
   justify-content: center;
   background-position: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card2 {
@@ -230,12 +231,10 @@ p {
 }
 
 @media (max-height: 780px) {
-
   .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
   .div_cards {
@@ -247,7 +246,6 @@ p {
   .card img {
     max-width: 60%;
     margin: 0px;
-
   }
 
   .card h5 {
