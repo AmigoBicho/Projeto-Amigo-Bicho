@@ -69,6 +69,7 @@
 
 As principais características do site são:
 - Adote um Pet
+- Função de Acesso
 - Faça uma Doação
 - Agenda Mensal de Eventos 
 - Dúvidas
