@@ -175,11 +175,19 @@ p {
   justify-content: center;
   background-position: center;
   flex-wrap: wrap;
+  
 }
 
 .card {
   margin: 20px;
   align-items: center;
+  box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
+}
+
+.card img {
+  padding: 50px 20px 50px 20px;
+  width: 210px;
+  
 }
 
 .card-body h5 {
@@ -212,6 +220,7 @@ p {
 
 .card2 img {
   margin-bottom: 20px ;
+  box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
 }
 
 .depoimento-super {
