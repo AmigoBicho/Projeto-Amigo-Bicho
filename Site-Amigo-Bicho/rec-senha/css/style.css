@@ -35,13 +35,6 @@ header {
   margin: 17.5px;
 }
 
-@media (max-width: 768px) {
-  #logo  img {
-    width: 80%;
-    margin: 10px;
-  }
-}
-
 #logo a {
   text-decoration: none;
 }
@@ -99,18 +92,6 @@ nav {
   display: inline-block;
   
 }
-/* configuracao do nav (icones) para telas menores:  */
-@media (max-width: 768px) {
-  .icones_acesso {
-    width: 17px;
-  }
-
-  .navegador_lista li {
-    font-size: 12px;
-  }
-  
-}
-
 
 /* --- MAIN --- */
 /*rec-senha*/
@@ -127,7 +108,6 @@ nav {
   background-position: bottom right;
   background-size: 500px;
 }
-
 
 #rec_senha_form{
   background-color: #ffffffab;
@@ -150,19 +130,6 @@ nav {
   font-size: 30px;
   color: #54B19D;
   position: relative;
-}
-
-@media (max-width: 768px) {
-  #rec_senha_form {
-    width: 350px;
-    padding: 50px 70px;
-  }
-
-  #form_header h1 {
-    font-size: 20px;
-    position: absolute;
-    padding-bottom: 20px;
-  }
 }
 
 #inputs{
@@ -221,7 +188,85 @@ nav {
 .rec_senha_button:hover{
   transform: scale(1.05);
 }
+/*---------*/
 
+/*Carousel CSS*/
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%; 
+}
+
+.carousel-inner {
+  height: 100%;
+  font-family: Atma;
+}
+
+.carousel-item {
+  display: flex;
+  text-align: center;
+  align-self: center;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+h2, p{
+  text-align: start;
+}
+/*----------*/
+
+/*CARD*/
+.div_cards {
+  display: flex;
+  justify-content: center; 
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.card  {
+  margin: 25px;
+  align-items: center;
+}
+
+.card-body h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: center;
+}
+.card-body a {
+  text-decoration: none;
+}
+
+/* Depoimentos */
+.depoimento{
+  background-color: #54b19d;
+  text-decoration: white;
+  width: 100%;
+}
+
+.depoimento h3 {
+  color: white;
+  font-family: Atma;
+  margin: 6px;
+  margin-left: 1%;
+}
+
+.depoimento-super{
+  margin: 0;
+}
 
 /* --- ASIDE --- */
 aside {
@@ -271,14 +316,6 @@ footer {
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
 
-
-  /* configuraçao do rodapé para telas menores */
-  @media (max-width: 600px) {
-    .rodape_principal a {
-      font-size: 12px;
-  
-    }
-  }
 
 
 

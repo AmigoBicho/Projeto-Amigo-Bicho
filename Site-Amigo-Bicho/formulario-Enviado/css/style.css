@@ -13,8 +13,6 @@ body {
 
 .background {
   background-color: #99C5BB;
-  
-  
 }
 
 /* --- HEADER --- */
@@ -36,13 +34,6 @@ header {
   max-width: 40%;
   margin-right: 11px;
   margin: 17.5px;
-}
-
-@media (max-width: 768px) {
-  #logo  img {
-    width: 80%;
-    margin: 10px;
-  }
 }
 
 #logo a {
@@ -100,18 +91,6 @@ nav {
   width: 22px;
 }
 
-/* configuracao do nav (icones) para telas menores:  */
-@media (max-width: 768px) {
-  .icones_acesso {
-    width: 17px;
-  }
-
-  .navegador_lista li {
-    font-size: 12px;
-  }
-  
-}
-
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
@@ -138,8 +117,6 @@ aside {
 
 /* --- FOOTER --- */
 footer {
-  position: absolute;
-  right: 0;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -183,61 +160,43 @@ footer {
 /* Confirmação de envio*/
 
 .retanguloEnviado{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.76);
+  box-sizing: border-box;
+
+  position:center;
+  width: 600px;
+  height: 104px;
+  left: 128px;
+  top: 583px;
+  
+  background: rgba(255, 255, 255, 0.95);
   border: 1px solid #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  
 
-}
-
-@media (max-width:768px) {
-  .retanguloEnviado {
-    width: 350px;
-
-  }
 }
 
 .textoEnviado{
+  width: 600px;
+  height: 104px;
+  left: 128px;
+  top: 583px;
+  flex: 1 1 100vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
+  line-height: 23px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   color: #54B19D;
-  padding: 30px;
 
 }
 
-<<<<<<< formulario-enviado
-=======
-@media (max-width:768px) {
-  .retanguloEnviado {
-    width: 350px;
-
-  }
-
-  .textoEnviado {
-    font-size: 17px;
-  }
-}
-
-
-
->>>>>>> local
-  /* configuraçao do rodapé para telas menores */
-  @media (max-width: 600px) {
-    .rodape_principal a {
-      font-size: 12px;
-  
-    }
-  }
-  
 
 
 
