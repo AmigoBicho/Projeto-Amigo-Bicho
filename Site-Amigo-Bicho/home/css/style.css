@@ -51,6 +51,7 @@ header {
   text-decoration: none;
 }
 
+
 @media (max-height: 768px) {
   #logo-botao button {
     max-width: 40%;
@@ -126,9 +127,8 @@ nav {
 main {
   display: flex;
   justify-content: center;
-  margin: 10px;
   flex: 1 1 100vw;
-  background: #a8f1e0ce;
+  background-color: rgba(153, 197, 187, 1);
   align-self: center;
 }
 
@@ -139,6 +139,7 @@ main {
   align-items: center;
   height: 30%;
   overflow: hidden;
+  padding: 30px 10px;
 }
 
 .carousel {
@@ -195,16 +196,27 @@ p {
 /* Depoimentos */
 .div_cards2 {
   display: flex;
-  justify-content: center;
   background-position: center;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 .card2 {
   margin-top: 10px;
   margin-bottom: 10px;
   align-items: center;
+  width: 16.3rem;
+  
+}
+
+.card2 img {
+  margin-bottom: 20px ;
+}
+
+.depoimento-super {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .depoimento {
@@ -230,7 +242,7 @@ p {
   margin: 0;
 }
 
-@media (max-height: 780px) {
+@media (max-height: 768px) {
   .card {
     display: flex;
     justify-content: center;
@@ -255,7 +267,10 @@ p {
   }
 
   .card2 img {
-    max-width: 80%;
+    max-width: 90%;
+    border-radius: 5px;
+    
+    
   }
 
   .card2 {
@@ -263,6 +278,7 @@ p {
     justify-content: center;
     align-items: center;
   }
+
 }
 
 /* --- ASIDE --- */
@@ -270,13 +286,11 @@ aside {
   display: flex;
   justify-content: center;
   flex: 1 1 100vw;
-  background: #a8f1e0;
+  background: rgba(153, 197, 187, 1);
 }
 
 /* --- FOOTER --- */
 footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #54b19d;
   padding: 10px;
