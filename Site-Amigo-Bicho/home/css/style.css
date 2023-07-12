@@ -29,6 +29,8 @@ header {
 #logo-botao img {
   max-width: 40%;
   margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #logo-botao button {
@@ -41,12 +43,21 @@ header {
   border: none;
   height: 40px;
   width: 85px;
-  margin: 50px;
-  margin-right: 20px;
+  margin: 20px;
+  margin-left: 30%;
 }
 
 #logo-botao a {
   text-decoration: none;
+}
+
+
+@media (max-height: 768px) {
+  #logo-botao button {
+    max-width: 40%;
+    height: 30px;
+    font-size: 13px;
+  }
 }
 
 /* --- NAV --- */
@@ -102,13 +113,22 @@ nav {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+}
+
 /* --- MAIN --- */
 main {
   display: flex;
   justify-content: center;
-  margin: 10px;
   flex: 1 1 100vw;
-  background: #a8f1e0ce;
+  background-color: rgba(153, 197, 187, 1);
   align-self: center;
 }
 
@@ -117,8 +137,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40%;
+  height: 30%;
   overflow: hidden;
+  padding: 30px 10px;
 }
 
 .carousel {
@@ -154,11 +175,19 @@ p {
   justify-content: center;
   background-position: center;
   flex-wrap: wrap;
+  
 }
 
 .card {
   margin: 20px;
   align-items: center;
+  box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
+}
+
+.card img {
+  padding: 50px 20px 50px 20px;
+  width: 210px;
+  
 }
 
 .card-body h5 {
@@ -175,14 +204,28 @@ p {
 /* Depoimentos */
 .div_cards2 {
   display: flex;
-  justify-content: center;
   background-position: center;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .card2 {
-  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   align-items: center;
+  width: 16.3rem;
+  
+}
+
+.card2 img {
+  margin-bottom: 20px ;
+  box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
+}
+
+.depoimento-super {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .depoimento {
@@ -198,8 +241,53 @@ p {
   margin-left: 1%;
 }
 
+@media (max-width: 768px) {
+  .depoimento h3 {
+    text-align: center;
+  }
+}
+
 .depoimento-super {
   margin: 0;
+}
+
+@media (max-height: 768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card img {
+    max-width: 60%;
+    margin: 0px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .card2 img {
+    max-width: 90%;
+    border-radius: 5px;
+    
+    
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 /* --- ASIDE --- */
@@ -207,13 +295,11 @@ aside {
   display: flex;
   justify-content: center;
   flex: 1 1 100vw;
-  background: #a8f1e0;
+  background: rgba(153, 197, 187, 1);
 }
 
 /* --- FOOTER --- */
 footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #54b19d;
   padding: 10px;
@@ -250,27 +336,8 @@ footer {
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
 
-@media screen and (max-height: 768px) {
-  #logo-botao img {
-    max-width: 55%;
-  }
-
-  #logo-botao button {
-    max-width: 40%;
-    height: 30px;
-    font-size: 15px;
-  }
-  .card img {
-    max-width: 60%;
-    margin-top: 35px;
-  }
-
-  .card h5 {
-    font-size: 15px;
-    margin-top: 20px;
-  }
-
-  .card2 img {
-    max-width: 80%;
+@media (max-width: 600px) {
+  .rodape_principal a {
+    font-size: 12px;
   }
 }
