@@ -34,6 +34,14 @@
     margin-right: 11px;
     margin: 17.5px;
   }
+
+  
+@media (max-width: 768px) {
+  #logo  img {
+    width: 80%;
+    margin: 10px;
+  }
+}
   
   #logo a {
     text-decoration: none;
@@ -93,6 +101,18 @@
     
   }
 
+/* configuracao do nav (icones) para telas menores:  */
+@media (max-width: 768px) {
+  .icones_acesso {
+    width: 17px;
+  }
+
+  .navegador_lista li {
+    font-size: 12px;
+  }
+  
+}
+
 /* --- MAIN/ PERFIL --- */
 #container-flex {
   display: flex;
@@ -110,24 +130,20 @@
   gap: 30px;
 }
 
-@media (max-width: 768px) {
-  #container-flex {
-    max-width: 95%;
-  }
-}
 
 #perfil-foto {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 26%;
+  padding-bottom: 150px;
+  padding-right: 30px;
 }
 
-@media (max-width: 480px) {
-  #perfil-foto {
-    padding-bottom: 10%;
-  }
+#perfil-foto img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 #perfil-nome {
   margin-top: 40px;
@@ -135,6 +151,41 @@
   font-size: 18px;
   color: #585a5a;
   text-align: start;
+}
+
+
+@media (max-width:768px) {
+  #container-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+
+  #perfil-foto {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+  }
+
+  #perfil-foto img {
+    height: 170px;
+  
+  }
+
+  #perfil-colums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #perfil-nome{
+    margin-top: 0px;
+    font-size: 15px;
+    text-shadow: 0 0 10px rgba(134, 131, 131, 0.5);
+  }
 }
 
 #lista-contatos {
@@ -173,6 +224,7 @@
   gap: 30px;
 }
 
+
 #animais h3 {
   border: none;
   padding: 20px;
@@ -210,6 +262,29 @@
   text-align: center;
 }
 /*--------*/
+
+@media (max-width: 768px) {
+  #animais {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #animais h3 {
+    max-width: 100%;
+  }
+
+  #status-avaliação h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #status-avaliação a {
+    max-width: 100%;
+    font-size: 12px;
+  }
+}
+
 
 /* --- FOOTER / RODAPÉ --- */
 footer {
@@ -250,4 +325,12 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
   } /* Adicionei o espaçamento para os lados nas letras*/
+  
+    /* configuraçao do rodapé para telas menores */
+    @media (max-width: 600px) {
+      .rodape_principal a {
+        font-size: 12px;
+    
+      }
+    }
   
