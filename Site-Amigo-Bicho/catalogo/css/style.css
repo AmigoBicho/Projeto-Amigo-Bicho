@@ -138,6 +138,11 @@ main{
   margin-bottom: 30px;
 }
 
+#container a{
+  text-decoration: none;
+  color: black;
+}
+
 .box {
   background-color: #54B19D;
   padding: 10px; 
