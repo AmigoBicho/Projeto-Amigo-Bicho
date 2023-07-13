@@ -144,7 +144,7 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
-  margin-bottom: 150px;
+  margin-bottom: 40px;
 }
 
 .navegador_lista {
@@ -198,7 +198,6 @@ nav {
   .navegador_lista li {
     font-size: 12px;
   }
-  
 }
 
 .icones_navegaçao li {
@@ -206,26 +205,17 @@ nav {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 /* --- ASIDE --- */
-=======
->>>>>>> 4809fc85e30224ad0b5467180a11be45275b1867
 aside {
-=======
-
-
-.background {
   background-color: #99C5BB;
 }
 
-<<<<<<< HEAD
 .retanguloMaior{
->>>>>>> Stashed changes
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
   width: 800px;
+  height: 1000px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -250,7 +240,6 @@ aside {
   padding: 30px;
 }
 
-
 .retangulo{
   box-sizing: border-box;
   width: 600px;
@@ -261,7 +250,6 @@ aside {
   border-radius: 4px;
   padding-top: 20px;
 }
-
 
 .textForm {
   width: 600px;
@@ -279,7 +267,6 @@ aside {
   color: #847F7B;
 }
 
-
 .retanguloFinal{
   box-sizing: border-box;
   width: 600px;
@@ -290,15 +277,12 @@ aside {
   border-radius: 4px;
 }
 
-<<<<<<< Updated upstream
-/* --- FOOTER --- */
-=======
-
 @media (max-width:768px) {
   .retanguloMaior{
-    width: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 1300px;
+    width: 450px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     padding: 30px;
   }
 
@@ -309,13 +293,13 @@ aside {
   .textForm {
     font-size: 15px;
     width: 350px;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
 
   .retanguloFinal {
     width: 350px;
-
   }
-
 }
 
 .enviar{
@@ -332,17 +316,14 @@ aside {
   margin-top: 20px;
 }
 
-
->>>>>>> Stashed changes
-=======
->>>>>>> 4809fc85e30224ad0b5467180a11be45275b1867
+/* --- FOOTER --- */
 footer {
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #54b19d;
   padding: 10px;
-  margin-top: 150px;
+  margin-top: 40px;
 }
 
 .rodape_principal {
