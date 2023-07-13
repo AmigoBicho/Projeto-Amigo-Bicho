@@ -52,7 +52,7 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .navegador_lista {
@@ -132,12 +132,13 @@ nav {
   gap: 15px;
   box-shadow: 5px 5px 8px rgba(#fff, #fff, #fff, 0.336);
   height: fit-content;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 @media (max-width:768px) {
   #cadastro_form {
     padding: 30px 50px;
+   
   }
 }
 
