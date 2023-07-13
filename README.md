@@ -35,7 +35,7 @@
 ### 3 - Ao optar por se cadastrar você é direcionado a seguinte página, onde poderá preencher com suas informações pessoais.
 ![cadastro](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/f2586a5c-4a9d-494d-a787-773880bc92fe)
 
-### 4 - Caso tenha esquecido sua senha, é possível recupera-lá clicando em "Esqueci a minha senha!" e receberá instruções via email para recuperação da conta.
+### 4 - Caso tenha esquecido sua senha, é possível recupera-la clicando em "Esqueci a minha senha!" e receberá as instruções via email para recuperação da conta.
 ![rec-isenha](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/2d6942d3-b295-4cb1-bfae-5f5c850ba89d)
 
 ### 4 - Ao fazer login com sua conta já criada, poderá entrar no seu perfil e acessar algumas informações pessoais muito importantes. 
@@ -50,7 +50,7 @@
 ### 7 - Caso tenha alguma dúvida, selecionamos as dúvidas mais frequentes dos usuários e colocamos numa página especial com as respectivas respostas.  
 ![duvidas](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/aa3ff390-d838-475c-9662-eb52934f982e)
 
-### 8 - Para poder adotar um pet é preciso entender que existem alguns requisitos especiais para que isso possa acontecer, e por isso criamos uma página com todos eles para o usuário ter certeza de que está apto a adotar um animal de maneira responsável. 
+### 8 - Para poder adotar um pet é preciso entender que existem alguns requisitos especiais para que isso possa acontecer, e por isso, criamos uma página com todos eles para o usuário ter certeza de que está apto a adotar um animal de maneira responsável. 
 ![requisitos](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/104660308/d0375f1a-9401-45d8-8cad-183637fed66d)
 
 ### 9 - A história do abrigo é algo de extrema importância para que as pessoas entendam para qual tipo de instituição estão ajudando e que elas mesmas possam incentivar outras pessoas a fazerem o mesmo, então, criamos uma página especial contado como e onde tudo começou. 
