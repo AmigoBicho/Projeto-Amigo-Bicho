@@ -44,7 +44,7 @@ header {
   height: 40px;
   width: 85px;
   margin: 20px;
-  margin-left: 30%;
+  margin-right: 30px;
 }
 
 #logo-botao a {
@@ -175,7 +175,6 @@ p {
   justify-content: center;
   background-position: center;
   flex-wrap: wrap;
-  
 }
 
 .card {
@@ -185,8 +184,8 @@ p {
 }
 
 .card img {
-  padding: 50px 20px 50px 20px;
-  width: 210px;
+  padding: 50px 20px 20px 20px;
+  width: 190px;
   
 }
 
@@ -207,7 +206,7 @@ p {
   background-position: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 45px;
 }
 
 .card2 {
@@ -215,7 +214,6 @@ p {
   margin-bottom: 10px;
   align-items: center;
   width: 16.3rem;
-  
 }
 
 .card2 img {
