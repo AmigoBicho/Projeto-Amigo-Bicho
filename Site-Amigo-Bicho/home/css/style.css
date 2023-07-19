@@ -196,9 +196,11 @@ p {
   text-align: center;
 }
 
-.card-body a {
+.div_cards a {
   text-decoration: none;
 }
+
+
 
 /* Depoimentos */
 .div_cards2 {
